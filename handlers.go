@@ -10,5 +10,5 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func notImpl(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Route %s not implemented! sorry", r.URL.String())
+	fmt.Fprintf(w, "Route %s not implemented! Soon:tm:", r.URL.String())
 }
