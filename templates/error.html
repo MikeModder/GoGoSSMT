@@ -1,0 +1,10 @@
+{{define "iserror"}}
+{{template "header" "Error!"}}
+    Sorry, it seems we hit a snag!
+    <br>
+    The error occured server side, with the following message: <br>
+    <code>
+        {{.Error}}
+    </code>
+{{template "footer"}}
+{{end}}
